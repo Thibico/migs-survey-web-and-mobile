@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MIGS Survey",
+    "description": "MIGS Survey offline data storage mode enabled mobile app",
+    "slug": "migs-survey-mobile",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.1.0",
+    "orientation": "landscape",
+    "icon": "./assets/images/migs_logo.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "co.thibi.migs_survey"
+    }
+  }
+}

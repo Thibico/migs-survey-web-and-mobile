@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-size: 1rem;
+}
+
+.App {
+  text-align: center;
+  font-size: calc(8px + 1.5vmin);
+  /*font-family: 'Padauk', sans-serif;*/
+  font-family: 'mm_font';
+  src: url('fonts/myanmarcensus.woff2') format('woff2'),
+    url('fonts/myanmarcensus.woff') format('woff'),
+    url('fonts/myanmarcensus.ttf') format('truetype');
+}
+
+option {
+  font-family: 'mm_font'!important;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+  margin: 20px 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input, select {
+  font-size: 1rem;
+}
+
+.picker {
+  margin-top: 10px;
+}
+
+.pickerWrapper {
+  margin: 10px 0px;
+  width: 150px;
+}
+
+.QuestionText {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+.submitButton {
+  background-color: #444;
+  color: #eee;
+  height: 60px;
+}
+
+.submitButton:disabled{
+  background-color: #aaa;
+  color: #eee;
+}
+
+.downloadLink{
+  font-size: .7em;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

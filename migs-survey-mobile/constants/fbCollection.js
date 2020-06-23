@@ -1,0 +1,1 @@
+export const SUBMISSION_COLLECTION = 'survey_2020';

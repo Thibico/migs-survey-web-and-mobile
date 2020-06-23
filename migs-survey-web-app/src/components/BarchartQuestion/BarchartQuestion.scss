@@ -1,0 +1,44 @@
+.BarchartQuestion{
+
+  .BarchartQuestionItem{
+    padding: 5px 10px;
+    line-height: 1.5em;
+  }
+
+  .BarchartQuestionItemButtons{
+    text-align: right;
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: top;
+  }
+
+  .changeValueButton{
+    background-color: #444;
+    color: #eee;
+    font-size: 1.2rem;
+    border:none;
+  }
+
+  .changeValueButton:disabled{
+    background-color: #aaa;
+    color: #eee;
+  }
+
+  .barChartBarLabel {
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+
+  .count {
+    text-anchor: end;
+  }
+  
+  .barChartBar {
+    // fill: #89CFF0;
+    fill: #4fb890;
+  }
+
+  .notSelected {
+    fill: #dddddd;
+  }
+}
